@@ -26,7 +26,7 @@ When one team needs changes from other teams, but not frequently, extra care is 
 Often those other teams might be slow to release, or might not communicate well regarding their releases.
 
 The trick here is for the motivated team to get task IDs from other teams whenever those other teams make changes for them.
-For example, when the the GUI Team1 wants to support a new order type, and needs the backend Team2 to support it,
+For example, when the GUI Team1 wants to support a new order type, and needs the backend Team2 to support it,
 they need to get an ID from Team2, say MYJIRA123. Then, before Team1 schedules a release, they can ask Team2,
 "did you release MYJIRA123 yet to production?"
 
@@ -41,11 +41,11 @@ but it's important that the critical one have a stable identifier.
 
 Note that it's not necessarily the most upstream team which needs to be most proactive here;
 it's the most motivated team, the team that owns the overall feature.
-That team needs to make sure that downstream teams release their changes first, and that upstream release their changes afterwards.
+That team needs to make sure that downstream teams release their changes first, and that upstream teams release their changes afterwards.
 
 ### Regarding Testing
 In both approaches, teams test all their changes together in a test environment before releasing them to production.
 This doc describes how to transition the production environment to have the same configuration as that tested configuration.
-Generally intermediate configuations are not manually tested in any pre-production.
+Generally intermediate configuations are not manually tested in any pre-production environment.
 For example, no company manually tests downstream Team2's changes in isolation, before Team1's have been made.
 Instead this is handled by automated regression tests, and production checkouts after release.
