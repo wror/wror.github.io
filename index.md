@@ -1,6 +1,5 @@
 ---
 layout: schmefault
-permalink: README.html
 ---
 {% for post in site.posts %}
   <article>
