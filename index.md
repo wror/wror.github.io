@@ -1,10 +1,7 @@
----
-layout: schmefault
----
 {% for post in site.posts %}
   <article>
     <h2>
-        <a href="{{ site.url }}/{{ post.url }}">
+        <a href="{{ site.url }}{{ post.url }}">
             {{ post.title }}
         </a>
     </h2>
