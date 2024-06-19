@@ -30,19 +30,23 @@ The simple and robust thing to do, is to be paranoid, and have the downstream sy
 <details>
 <summary>I previously suggested a more complicated approach, but now regret it.</summary>
 
+<br/>
 The trick here is for the motivated team to get task IDs from other teams whenever those other teams make changes for them.
 For example, when the GUI Team1 wants to support a new order type, and needs the backend Team2 to support it,
 they need to get an ID from Team2, say MYJIRA123.
 Then, before Team1 schedules a release, they can ask Team2, "did you release MYJIRA123 yet to production?"
 <br/>
+<br/>
 This is even more important than having an ID beforehand, for tracking when the other team will do the work.
 Programmers should remember (and managers should remind them), that _any time_ they ask another team to do something,
 to do anything other than "please bring up our test environment", they should get a task ID.
+<br/>
 <br/>
 Teams should understand that it's important that these tasks be "agile",
 that they represent everything that's needed for the feature by the requiring team.
 If the implementing team wants to split the task up into ten subtasks, that's fine,
 but it's important that the critical one have a stable identifier.
+<br/>
 <br/>
 Note that it's not necessarily the most upstream team which needs to be most proactive here;
 it's the most motivated team, the team that owns the overall feature.
