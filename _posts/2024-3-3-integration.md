@@ -30,7 +30,6 @@ The simple and robust thing to do, is to be paranoid, and have the downstream sy
 <details>
 <summary>I previously suggested a more complicated approach, but now regret it.</summary>
 
-\
 ~~The trick here is for the motivated team to get task IDs from other teams whenever those other teams make changes for them.
 For example, when the GUI Team1 wants to support a new order type, and needs the backend Team2 to support it,
 they need to get an ID from Team2, say MYJIRA123.
