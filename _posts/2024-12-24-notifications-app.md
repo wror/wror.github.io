@@ -4,7 +4,7 @@ title: Notifications App
 ---
 There ought to be an app for paging through "news" and timely posts, a single front end for the list view of all of: email, whatsapp, web sites, and social networking sites.
 
-Sure, there're are differences, but they are not big enough to justify paging through multiple separate lists.
+Sure, there're differences, but they are not big enough to justify paging through multiple separate lists.
 
 Unifying the interface could have more salutory effects: it could enable new platforms to better compete, and it could one day support factoring out the "algorithm", the smarts about which posts to emphasize.
 
