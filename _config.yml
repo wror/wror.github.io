@@ -2,4 +2,5 @@ plugins:
   - jekyll-feed
 theme: jekyll-theme-minimal
 title: Farfetched blog
-markdown: kramdown
+kramdown:
+  input: Kramdown
