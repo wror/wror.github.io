@@ -2,6 +2,4 @@ plugins:
   - jekyll-feed
 theme: jekyll-theme-minimal
 title: Farfetched blog
-markdown: 'python'
-markdown_extensions:
-  - sane_lists
+markdown: kramdown
